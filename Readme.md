@@ -25,10 +25,16 @@ Features
 Project Structure
 
 AI_HEARTRATE_BLINK_DETECTOR/
+AI_HEARTRATE_BLINK_DETECTOR/
 
-├── dataset/
+├── app.py
+├── requirements.txt
+├── Readme.md
+├── .gitignore
+│
 ├── models/
 │   └── heart_rate_model.pkl
+│
 ├── src/
 │   ├── __init__.py
 │   ├── face_detection.py
@@ -37,11 +43,16 @@ AI_HEARTRATE_BLINK_DETECTOR/
 │   ├── heart_rate_estimation.py
 │   ├── graph_generator.py
 │   └── health_predictor.py
+│
 ├── static/
-│   └── graphs/
-├── app.py
-├── requirements.txt
-└── README.md
+│   ├── graphs/
+│   │   ├── signal_graph.png
+│   │   └── fft_graph.png
+│   ├── style.css
+│   └── script.js
+│
+└── templates/
+    └── index.html
 
 Installation
 
