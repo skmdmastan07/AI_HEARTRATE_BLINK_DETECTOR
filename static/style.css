@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #222;
+}
+
+.video-section {
+    margin-bottom: 25px;
+}
+
+#video-feed {
+    width: 800px;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 3px solid #333;
+}
+
+.graph-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 450px;
+    max-width: 100%;
+}

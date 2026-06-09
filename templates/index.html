@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Heart Rate & Blink Monitor</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>AI-Based Contactless Heart Rate & Eye Blink Monitoring</h1>
+
+        <div class="video-section">
+            <img src="{{ url_for('video_feed') }}" id="video-feed">
+        </div>
+
+        <div class="graph-section">
+
+            <div class="card">
+                <h2>Heart Signal Graph</h2>
+                <img src="/static/graphs/signal_graph.png" id="signalGraph">
+            </div>
+
+            <div class="card">
+                <h2>FFT Spectrum Graph</h2>
+                <img src="/static/graphs/fft_graph.png" id="fftGraph">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
