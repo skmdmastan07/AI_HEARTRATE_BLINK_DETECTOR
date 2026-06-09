@@ -47,6 +47,7 @@ Installation
 
 1. Clone the repository
 
+git clone <repository-link>
 
 2. Move into the project folder
 
@@ -90,5 +91,4 @@ Note
 
 This project is developed for educational and academic purposes only. The displayed heart rate values are approximate estimates and should not be used for medical diagnosis.
 
-Author 
-Mastan Vali
+Author - Mastan Vali
